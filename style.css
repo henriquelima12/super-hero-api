@@ -1,0 +1,58 @@
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+article img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+article h1{
+    text-align: center;
+}
+
+article>div{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+article div>div{
+    height: 10px;
+    width: 100%;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+}
+
+.intelligence {
+    background-color: #ff6767; 
+}
+
+.strength {
+    background-color: #f2dc35; 
+}
+
+.speed {
+    background-color: #358cf2; 
+}
+
+.durability {
+    background-color: #c635f2; 
+}
+
+.power {
+    background-color: #f2b835; 
+}
+
+.combat {
+    background-color: #62b918; 
+}
